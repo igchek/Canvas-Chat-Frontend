@@ -10,9 +10,8 @@ export const metadata: Metadata = {
   description: "another pet base build",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
+export default function RootLayout({children}:
+  Readonly<{
   children: ReactNode;
 }>) {
   return (
@@ -25,7 +24,7 @@ export default function RootLayout({
               enableSystem
               disableTransitionOnChange
           >
-            {children}
+              {children}
           </ThemeProvider>
         </ReduxProvider>
         

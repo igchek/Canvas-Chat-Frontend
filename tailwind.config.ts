@@ -25,6 +25,9 @@ const config: Config = {
 		  // => @media (min-width: 1536px) { ... }
 	  },
   	extend: {
+		backgroundImage: {
+			'chat': "url('/backgrounds/chatBG.svg')",
+		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

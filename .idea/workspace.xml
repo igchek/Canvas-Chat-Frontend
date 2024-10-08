@@ -4,25 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="625b8891-33a6-4ffd-b62a-2d2432e9f688" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/backgrounds/authBG.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/chat-icons/emoji.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(auth)/sign-in/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(auth)/sign-in/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(auth)/sign-up/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(auth)/sign-up/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sign-up/auth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/providers/theme-provider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/theme-switcher/theme-switcher.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/useSize.ts" afterDir="false" />
+    <list default="true" id="625b8891-33a6-4ffd-b62a-2d2432e9f688" name="Changes" comment="add skeleton chat">
+      <change afterPath="$PROJECT_DIR$/public/backgrounds/chatBG.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/@chat/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/@peoples/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/peoples/chat-item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/avatar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/Provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/Provider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/hooks.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +24,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;maxnikiforov04&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/igchek/Canvas-Chat-Frontend&quot;,
+    &quot;accountId&quot;: &quot;4fe48661-0290-472e-b1b0-c7b0cdd0237a&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -46,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/maxni/WebstormProjects/Canvas-Chat-Frontend/public",
+    "last_opened_file_path": "C:/Users/maxni/WebstormProjects/Canvas-Chat-Frontend/public/backgrounds",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,15 +76,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maxni\WebstormProjects\Canvas-Chat-Frontend\public\backgrounds" />
+      <recent name="C:\Users\maxni\WebstormProjects\Canvas-Chat-Frontend\src\app\(chat)\@chat" />
       <recent name="C:\Users\maxni\WebstormProjects\Canvas-Chat-Frontend\public" />
       <recent name="C:\Users\maxni\WebstormProjects\Canvas-Chat-Frontend\src\app\(auth)\sign-in" />
       <recent name="C:\Users\maxni\WebstormProjects\Canvas-Chat-Frontend\src\public\backgrounds" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maxni\WebstormProjects\Canvas-Chat-Frontend\src\app" />
+      <recent name="C:\Users\maxni\WebstormProjects\Canvas-Chat-Frontend\src" />
       <recent name="C:\Users\maxni\WebstormProjects\Canvas-Chat-Frontend\public\chat-icons" />
       <recent name="C:\Users\maxni\WebstormProjects\Canvas-Chat-Frontend\src\app\(auth)\sign-up" />
       <recent name="C:\Users\maxni\WebstormProjects\Canvas-Chat-Frontend" />
-      <recent name="C:\Users\maxni\WebstormProjects\Canvas-Chat-Frontend\src\app" />
     </key>
   </component>
   <component name="RunManager">
@@ -115,8 +125,19 @@
       <workItem from="1728223642944" duration="1355000" />
       <workItem from="1728225028862" duration="1804000" />
       <workItem from="1728226976580" duration="5145000" />
-      <workItem from="1728297898781" duration="7785000" />
+      <workItem from="1728297898781" duration="12097000" />
+      <workItem from="1728329170375" duration="6558000" />
+      <workItem from="1728391817513" duration="22169000" />
     </task>
+    <task id="LOCAL-00001" summary="add sign-in + sign-up statics + install zod + react-hook-form">
+      <option name="closed" value="true" />
+      <created>1728313405576</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728313405576</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,5 +153,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add sign-in + sign-up statics + install zod + react-hook-form" />
+    <MESSAGE value="add skeleton chat" />
+    <option name="LAST_COMMIT_MESSAGE" value="add skeleton chat" />
   </component>
 </project>
