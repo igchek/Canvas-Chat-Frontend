@@ -1,5 +1,5 @@
 "use client"
-import { UserIcon} from 'lucide-react';
+import {UserIcon} from 'lucide-react';
 import {Card} from "@/components/ui/card";
 import {useAppDispatch} from "@/utils/hooks";
 import {getChat} from "@/store/slices/chat-slice";
@@ -23,7 +23,6 @@ export default function ChatItem({username,icon,sender,message}:ChatType) {
             <div className="mt-5 mb-5 ml-5 flex items-center">
                 <div className="rounded-full bg-amber-200">
                     {icon=='default'?(
-
                         <UserIcon size={50}/>
                     ):(<div></div>)}
                 </div>
