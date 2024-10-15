@@ -1,10 +1,6 @@
-import { Button } from "@/components/ui/button"
-import {
-    Dialog,
-    DialogContent,
-    DialogTrigger,
-} from "@/components/ui/dialog"
-import {AudioLines, Ban, BellRing, File, FileCheck, Link2, MenuIcon, Mic, UserIcon} from "lucide-react";
+import {Button} from "@/components/ui/button"
+import {Dialog, DialogContent, DialogTrigger,} from "@/components/ui/dialog"
+import {Ban, MenuIcon, UserIcon} from "lucide-react";
 import {Avatar} from "@/components/ui/avatar";
 import {Card} from "@/components/ui/card";
 
@@ -24,9 +20,9 @@ export function PeoplesDialog(props: DialogProps) {
                 <div className="flex justify-center items-center">
                     <Card className="flex flex-col gap-4 items-center w-full sm:w-4/5   ">
                         <div className="flex flex-col">
-                            <Avatar className="h-full w-20  rounded-full bg-amber-200">
+                            <Avatar className="h-full w-full  rounded-full bg-amber-200 cursor-pointer">
                                 {icon == 'default' ? (
-                                    <UserIcon size={50}/>
+                                    <UserIcon size={100}/>
                                 ) : (<div></div>)}
                             </Avatar>
                         </div>
@@ -36,15 +32,19 @@ export function PeoplesDialog(props: DialogProps) {
                     </Card>
                 </div>
                 <div className="flex items-center justify-center">
-                    <div className="flex flex-col gap-2 w-full sm:w-4/5 " >
-                        <Button className="bg-[#8BABD84A]" variant="outline" size="lg"><BellRing/> Уведомления</Button>
-                        <Button className="bg-[#8BABD84A]" variant="outline" size="lg"><File/>Файлы</Button>
-                        <Button className="bg-[#8BABD84A]" variant="outline" size="lg"><AudioLines/>Аудиофайлы</Button>
-                        <Button className="bg-[#8BABD84A]" variant="outline" size="lg"><FileCheck/>Избранное</Button>
-                        <Button className="bg-[#8BABD84A]" variant="outline" size="lg"><Link2/>Ссылки</Button>
-                        <Button className="bg-[#8BABD84A]" variant="outline" size="lg"><Mic/>Голосовые сообщения</Button>
-                        <Button variant="destructive" size="lg"><Ban/>Заблокировать</Button>
+                    <div className="flex flex-col sm:w-4/5 mt-10 mb-10" >
+                        <Button className="bg-[#8BABD84A]" variant="outline" size="lg"> Настройки</Button>
+                        <Button className="bg-[#8BABD84A]" variant="outline" size="lg">Контакты</Button>
+                        <Button className="bg-[#8BABD84A]" variant="outline" size="lg">Избранное</Button>
+                        <Button className="bg-[#8BABD84A]" variant="outline" size="lg">Звонки</Button>
+                        <Button className="bg-[#8BABD84A]" variant="outline" size="lg">Мои истории</Button>
+                        <Button className="bg-[#8BABD84A]" variant="outline" size="lg">Подарки</Button>
+
                     </div>
+
+                </div>
+                <div className='flex justify-center items-center'>
+                    <Button variant="destructive" size="lg" className='sm:w-4/5'><Ban/>Выйти</Button>
                 </div>
             </DialogContent>
         </Dialog>
